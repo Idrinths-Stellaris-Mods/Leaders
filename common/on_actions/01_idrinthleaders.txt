@@ -9,3 +9,8 @@ on_leader_spawned = {
         idrinthleaders.2
     }
 }
+on_leader_death = {
+	events = {
+		idrinthleaders.3
+	}
+}
