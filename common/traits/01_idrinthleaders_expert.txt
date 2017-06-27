@@ -1,0 +1,87 @@
+#
+# Levels 10
+#
+skill_idrinthleaders_admiral_expert = {
+    cost = 0
+    modification = no
+    leader_class = { admiral }
+    leader_trait = yes
+    initial = no
+    randomized = no
+    self_modifier = {
+        leader_age = 15
+    }
+    modifier = {
+        ship_weapon_range_mult = 0.1
+        ship_shield_hp_mult = 0.1
+        ship_home_territory_fire_rate_mult = 0.1
+    }
+}
+skill_idrinthleaders_general_expert = {
+    cost = 0
+    modification = no
+    leader_class = { general }
+    leader_trait = yes
+    initial = no
+    randomized = no
+    self_modifier = {
+        leader_age = 15
+    }
+    modifier = {
+        army_health = 0.15
+        army_morale = 0.3
+        garrison_health=0.2
+        planet_fortification_strength=0.3
+    }
+}
+skill_idrinthleaders_scientist_expert = {
+    cost = 0
+    modification = no
+    leader_class = { scientist }
+    leader_trait = yes
+    initial = no
+    randomized = no
+    self_modifier = {
+        all_technology_research_speed = 0.1
+        leader_age = 15
+    }
+}
+skill_idrinthleaders_governor_expert = {
+    cost = 0
+    modification = no
+    leader_class = { governor }
+    leader_trait = yes
+    initial = no
+    randomized = no
+    self_modifier = {
+        leader_age = 15
+    }
+    modifier = {
+        pop_government_ethic_attraction = 0.02
+        planet_border_mult = 0.1
+        pop_consumer_goods_mult=-0.1
+        pop_fortification_defense=0.2
+        planet_fortification_strength=0.5
+        planet_building_upkeep_mult=-0.02
+        planet_resource_influence_add=1
+        garrison_health=0.5
+        edict_influence_cost=-0.1
+    }
+}
+skill_idrinthleaders_leader_expert = {
+    cost = 0
+    modification = no
+    leader_class = { leader }
+    leader_trait = yes
+    initial = no
+    randomized = no
+    self_modifier = {
+        leader_age = 15
+    }
+    modifier = {
+        country_influence_gain_add = 1
+        country_leader_cap = 2
+        country_trust_cap_add = 10
+        country_core_sector_system_cap=2
+    }
+}

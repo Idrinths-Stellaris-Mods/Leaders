@@ -1,0 +1,82 @@
+namespace = idrinthleaders
+
+event = {
+    id = idrinthleaders.1
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        from = {
+            if = {
+                limit = {
+                    has_level = 5
+                }
+                if = {
+                    limit = {
+                        leader_class = scientist
+                    }
+                    add_trait = "skill_idrinthleaders_scientist_advanced"
+                }
+                if = {
+                    limit = {
+                        leader_class = admiral
+                    }
+                    add_trait = "skill_idrinthleaders_admiral_advanced"
+                }
+                if = {
+                    limit = {
+                        leader_class = governor
+                    }
+                    add_trait = "skill_idrinthleaders_governor_advanced"
+                }
+                if = {
+                    limit = {
+                        leader_class = general
+                    }
+                    add_trait = "skill_idrinthleaders_general_advanced"
+                }
+                if = {
+                    limit = {
+                        leader_class = ruler
+                    }
+                    add_trait = "skill_idrinthleaders_ruler_advanced"
+                }
+            }
+            if = {
+                limit = {
+                    has_level = 10
+                }
+                if = {
+                    limit = {
+                        leader_class = scientist
+                    }
+                    add_trait = "skill_idrinthleaders_scientist_expert"
+                }
+                if = {
+                    limit = {
+                        leader_class = admiral
+                    }
+                    add_trait = "skill_idrinthleaders_admiral_expert"
+                }
+                if = {
+                    limit = {
+                        leader_class = governor
+                    }
+                    add_trait = "skill_idrinthleaders_governor_expert"
+                }
+                if = {
+                    limit = {
+                        leader_class = general
+                    }
+                    add_trait = "skill_idrinthleaders_general_expert"
+                }
+                if = {
+                    limit = {
+                        leader_class = ruler
+                    }
+                    add_trait = "skill_idrinthleaders_ruler_expert"
+                }
+            }
+        }
+    }
+}

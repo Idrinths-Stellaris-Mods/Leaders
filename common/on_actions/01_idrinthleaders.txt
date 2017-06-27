@@ -1,0 +1,11 @@
+on_leader_level_up = {
+    events = {
+        idrinthleaders.1
+    }
+}
+on_leader_spawned = {
+    events = {
+        idrinthleaders.1
+        idrinthleaders.2
+    }
+}

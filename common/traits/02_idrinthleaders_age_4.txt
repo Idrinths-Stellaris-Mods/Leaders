@@ -1,0 +1,166 @@
+#
+# ADMIRAL
+#
+
+leader_idrinthleaders_experienced_admiral_4 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral }
+	initial = no
+	randomized = no
+	modifier = {
+		# OFFENCE
+		ship_weapon_range_mult = 0.125
+		ship_fire_rate_mult = 0.125
+		ship_accuracy_add = 0.5
+		ship_accuracy_mult = 0.025
+		ship_tracking_add = 0.5
+		ship_tracking_mult = 0.025
+
+		# DEFENCE
+		ship_auto_repair_add = 0.005
+		ship_hitpoints_mult = 0.05
+		ship_shield_hp_mult = 0.05
+		ship_evasion_mult = 0.025
+		ship_evasion_add = 0.5
+
+		# UTILITY
+		ship_sensor_range_mult = 0.125
+		ship_speed_mult = 0.125
+		ship_combat_speed_mult = 0.125
+		navy_size_add = 0.5
+	}
+}
+
+#
+# GENERAL
+#
+
+leader_idrinthleaders_experienced_general_4 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { general }
+	initial = no
+	randomized = no
+	modifier = {
+		# OFFENCE
+		army_attack_morale_mult = 0.25
+		army_attack_damage_mult = 0.25
+
+		# DEFENCE
+		army_defense_morale_mult = 0.5
+		army_defense_damage_mult = 0.5
+		garrison_health = 0.75
+
+		# MIXED
+		army_health = 0.25
+		army_morale = 0.25
+		army_damage_mult = 0.25
+
+		# UTILITY
+		planet_army_build_speed_mult = 0.05
+		planet_army_build_cost_mult = -0.05
+		planet_fortification_strength = 0.25
+	}
+}
+
+#
+# GOVENOR
+#
+
+leader_idrinthleaders_experienced_governor_4 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { governor }
+	initial = no
+	randomized = no
+	modifier = {
+		# RESOURCES
+		tile_resource_food_mult = 0.05
+		tile_resource_energy_mult = 0.05
+		tile_resource_minerals_mult = 0.05
+		tile_resource_engineering_research_mult = 0.05
+		tile_resource_physics_research_mult = 0.05
+		tile_resource_society_research_mult = 0.05
+
+		# BUILDING
+		planet_army_build_speed_mult = 0.05
+		spaceport_ship_build_speed_mult = 0.05
+		planet_building_build_speed_mult = 0.05
+
+		# DEFENCE
+		garrison_health = 0.5
+		planet_fortification_strength = 0.25
+
+		# OTHER
+		pop_government_ethic_attraction = 0.125
+		pop_happiness = 0.05
+		planet_unrest_add = -5
+		pop_environment_tolerance = 0.05
+	}
+}
+
+#
+# SCIENTIST
+#
+
+
+leader_idrinthleaders_experienced_scientist_4 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { scientist }
+	initial = no
+	randomized = no
+	modifier = {
+		# ANOMALIES
+		ship_anomaly_generation_chance_mult = 0.05
+		ship_anomaly_research_speed_mult = 0.125
+
+		# SURVEY
+		science_ship_survey_speed = 0.125
+		ship_auto_repair_add = 0.005
+		ship_hitpoints_mult = 0.05
+		ship_shield_hp_mult = 0.05
+
+		# RESEARCH
+		all_technology_research_speed = 0.05
+	}
+}
+
+#
+# RULER
+#
+
+leader_idrinthleaders_experienced_ruler_4 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { ruler }
+	initial = no
+	randomized = no
+	modifier = {
+		# MILITARY
+		army_morale = 0.25
+		ship_weapon_damage = 0.05
+		army_damage_mult = 0.125
+		navy_size_add = 1.25
+
+		# ECONOMY
+		country_resource_influence_add = 1.25
+		country_resource_unity_mult = 0.5
+
+		# POPULATION
+		pop_happiness = 0.05
+		pop_government_ethic_attraction = 0.05
+
+		# OTHER
+		planet_colony_development_speed_mult = 0.05
+		edict_length_mult = 0.125
+		ship_anomaly_research_speed_mult = 0.25
+		country_trust_growth = 0.25
+	}
+}
