@@ -1,0 +1,30 @@
+namespace = idrinthleaders
+
+event = {
+    id = idrinthleaders.3
+    is_triggered_only = yes
+
+    option = {
+        idrinthleaders_CELEBRATE
+        from = {
+            if = {
+                limit = {
+                    has_trait = 5
+                }
+                
+            }
+        }
+    }
+
+    option = {
+        idrinthleaders_IGNORE
+        from = {
+            if = {
+                limit = {
+                    has_trait = 5
+                }
+                
+            }
+        }
+    }
+}
