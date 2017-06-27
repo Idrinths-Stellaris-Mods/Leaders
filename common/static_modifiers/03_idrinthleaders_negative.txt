@@ -1,0 +1,47 @@
+mod_idrinthleaders_death_default_negative = {
+  modifier = {
+    pop_happiness = -0.15
+    influence_gain_mult = -0.25
+    country_trust_cap_add = -5
+  }
+}
+mod_idrinthleaders_death_age0_negative = {
+  modifier = {
+    pop_happiness = -0.15
+    influence_gain_mult = -0.25
+    country_trust_cap_add = -6
+    planet_unrest_add = -5
+  }
+}
+mod_idrinthleaders_death_age1_negative = {
+  modifier = {
+    pop_happiness = -0.15
+    influence_gain_mult = -0.25
+    country_trust_cap_add = -8
+    planet_unrest_add = -10
+  }
+}
+mod_idrinthleaders_death_age2_negative = {
+  modifier = {
+    pop_happiness = -0.15
+    influence_gain_mult = -0.25
+    country_trust_cap_add = -11
+    planet_unrest_add = -15
+  }
+}
+mod_idrinthleaders_death_age3_negative = {
+  modifier = {
+    pop_happiness = -0.15
+    influence_gain_mult = -0.25
+    country_trust_cap_add = -15
+    planet_unrest_add = -20
+  }
+}
+mod_idrinthleaders_death_age4_negative = {
+  modifier = {
+    pop_happiness = -0.15
+    influence_gain_mult = -0.25
+    country_trust_cap_add = -20
+    planet_unrest_add = -25
+  }
+}

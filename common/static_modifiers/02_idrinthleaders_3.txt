@@ -1,0 +1,32 @@
+effect_idrinthleaders_admiral_3 = {
+  pop_happiness = 0.04
+  pop_government_ethic_attraction=0.04
+  pop_ethic_militarist_attraction_mult=0.1
+  planet_ship_build_speed_mult = 0.1
+}
+effect_idrinthleaders_general_3 = {
+  pop_happiness = 0.04
+  pop_government_ethic_attraction=0.04
+  pop_ethic_militarist_attraction_mult=0.1
+  planet_army_build_speed_mult = 0.1
+}
+effect_idrinthleaders_governor_3 = {
+  pop_happiness = 0.04
+  pop_government_ethic_attraction=0.04
+  pop_ethic_authoritarian_attraction_mult=0.1
+  edict_influence_cost = -0.1
+}
+effect_idrinthleaders_scientist_3 = {
+  pop_happiness = 0.04
+  pop_government_ethic_attraction=-0.04
+  all_technology_research_speed=0.04
+}
+effect_idrinthleaders_ruler_3 = {
+  pop_happiness = 0.04
+  pop_government_ethic_attraction=0.1
+  country_resource_influence_mult=0.1
+}
+effect_idrinthleaders_ignore_3 = {
+  pop_happiness = -0.04
+  pop_government_ethic_attraction=-0.2
+}
