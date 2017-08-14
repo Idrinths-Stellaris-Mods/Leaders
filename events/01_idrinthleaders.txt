@@ -9,7 +9,7 @@ event = {
         from = {
             if = {
                 limit = {
-                    has_level = 5
+                    has_level > 4
                 }
                 if = {
                     limit = {
@@ -44,7 +44,7 @@ event = {
             }
             if = {
                 limit = {
-                    has_level = 10
+                    has_level > 9
                 }
                 if = {
                     limit = {
