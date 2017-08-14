@@ -1,0 +1,2008 @@
+leader_idrinthleaders_agecounter_0 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_1 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_2 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_3 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_4 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_5 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_6 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_7 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_8 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_9 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_10 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_11 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_12 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_13 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_14 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_15 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_16 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_17 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_18 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_19 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_20 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_21 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_22 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_23 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_24 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_25 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_26 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_27 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_28 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_29 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_30 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_31 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_32 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_33 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_34 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_35 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_36 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_37 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_38 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_39 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_40 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_41 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_42 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_43 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_44 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_45 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_46 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_47 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_48 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_49 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_50 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_51 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_52 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_53 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_54 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_55 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_56 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_57 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_58 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_59 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_60 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_61 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_62 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_63 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_64 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_65 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_66 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_67 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_68 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_69 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_70 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_71 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_72 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_73 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_74 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_75 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_76 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_77 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_78 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_79 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_80 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_81 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_82 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_83 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_84 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_85 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_86 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_87 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_88 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_89 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_90 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_91 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_92 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_93 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_94 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_95 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_96 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_97 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_98 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_99 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_100 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_101 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_102 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_103 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_104 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_105 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_106 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_107 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_108 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_109 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_110 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_111 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_112 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_113 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_114 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_115 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_116 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_117 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_118 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_119 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_120 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_121 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_122 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_123 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_124 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_125 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_126 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_127 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_128 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_129 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_130 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_131 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_132 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_133 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_134 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_135 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_136 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_137 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_138 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_139 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_140 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_141 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_142 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_143 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_144 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_145 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_146 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_147 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_148 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_149 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_150 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_151 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_152 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_153 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_154 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_155 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_156 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_157 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_158 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_159 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_160 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_161 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_162 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_163 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_164 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_165 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_166 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_167 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_168 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_169 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_170 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_171 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_172 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_173 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_174 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_175 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_176 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_177 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_178 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_179 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_180 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_181 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_182 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_183 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_184 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_185 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_186 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_187 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_188 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_189 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_190 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_191 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_192 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_193 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_194 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_195 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_196 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_197 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_198 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_199 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_200 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_201 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_202 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_203 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_204 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_205 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_206 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_207 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_208 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_209 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_210 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_211 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_212 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_213 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_214 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_215 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_216 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_217 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_218 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_219 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_220 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_221 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_222 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_223 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_224 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_225 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_226 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_227 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_228 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_229 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_230 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_231 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_232 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_233 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_234 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_235 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_236 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_237 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_238 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_239 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_240 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_241 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_242 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_243 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_244 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_245 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_246 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_247 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_248 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_249 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
+leader_idrinthleaders_agecounter_250 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+}
