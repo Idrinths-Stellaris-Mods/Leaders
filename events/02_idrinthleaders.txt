@@ -7,24 +7,37 @@ country_event = {
     
     immediate = {
         country_event = {
-            id = idrinthleaders.201
+            id = idrinthleaders.2010
             days = 3600 # 10 years
         }
         country_event = {
-            id = idrinthleaders.202
+            id = idrinthleaders.2020
             days = 9000 # 25 years
         }
         country_event = {
-            id = idrinthleaders.203
+            id = idrinthleaders.2030
             days = 18000 # 50 years
         }
         country_event = {
-            id = idrinthleaders.204
+            id = idrinthleaders.2040
             days = 36000 # 100 years
         }
         country_event = {
-            id = idrinthleaders.205
+            id = idrinthleaders.2050
             days = 90000 # 250 years
+        }
+    }
+}
+
+country_event = {
+    id = idrinthleaders.2010
+    hide_window = yes
+    immediate = {
+        from = {
+            if = {
+                limit = { is_valid = yes }
+                country_event = { id = idrinthleaders.201 }
+            }
         }
     }
 }
@@ -56,6 +69,19 @@ country_event = {
             if = {
                 limit = { leader_class = ruler }
                 add_trait = leader_idrinthleaders_experienced_ruler_0
+            }
+        }
+    }
+}
+
+country_event = {
+    id = idrinthleaders.2020
+    hide_window = yes
+    immediate = {
+        from = {
+            if = {
+                limit = { is_valid = yes }
+                country_event = { id = idrinthleaders.202 }
             }
         }
     }
@@ -99,6 +125,19 @@ country_event = {
 }
 
 country_event = {
+    id = idrinthleaders.2030
+    hide_window = yes
+    immediate = {
+        from = {
+            if = {
+                limit = { is_valid = yes }
+                country_event = { id = idrinthleaders.203 }
+            }
+        }
+    }
+}
+
+country_event = {
     id = idrinthleaders.203
     title = "idrinthleaders.203.name"
     desc = "idrinthleaders.203.desc"
@@ -130,6 +169,19 @@ country_event = {
                 limit = { leader_class = ruler }
                 add_trait = leader_idrinthleaders_experienced_ruler_2
                 remove_trait = leader_idrinthleaders_experienced_ruler_1
+            }
+        }
+    }
+}
+
+country_event = {
+    id = idrinthleaders.2040
+    hide_window = yes
+    immediate = {
+        from = {
+            if = {
+                limit = { is_valid = yes }
+                country_event = { id = idrinthleaders.204 }
             }
         }
     }
@@ -173,10 +225,22 @@ country_event = {
 }
 
 country_event = {
+    id = idrinthleaders.2050
+    hide_window = yes
+    immediate = {
+        from = {
+            if = {
+                limit = { is_valid = yes }
+                country_event = { id = idrinthleaders.205 }
+            }
+        }
+    }
+}
+
+country_event = {
     id = idrinthleaders.205
     title = "idrinthleaders.205.name"
     desc = "idrinthleaders.205.desc"
-    hide_window = yes
     is_triggered_only = yes
     option = {
 	name = OK
