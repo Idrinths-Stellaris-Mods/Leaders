@@ -13,6 +13,7 @@ on_leader_spawned = {
     events = {
         idrinthleaders.1
         idrinthleaders.2
+        idrinthleaders.5
     }
 }
 # Executed as a leader has died
@@ -27,12 +28,6 @@ on_leader_death = {
 on_yearly_pulse = {
     events = {
         idrinthleaders.4
-    }
-}
-# No scope
-on_game_start_country = {
-    events = {
-        idrinthleaders.5
     }
 }
 # Executed when the ruler is ousted and goes back to their pre-ruler class
