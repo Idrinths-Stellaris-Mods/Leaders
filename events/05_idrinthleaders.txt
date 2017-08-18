@@ -1,0 +1,58 @@
+namespace = idrinthleaders
+
+event = {
+    id = idrinthleaders.5
+    hide_window = yes
+    is_triggered_only = yes
+
+    immediate = {
+        if = {
+          limit = { years_passed < 1 }
+          from = {
+                randomlist = {
+                    1 = {
+                        add_trait = leader_idrinthleaders_agecounter_10
+                        remove_trait = leader_idrinthleaders_agecounter_0
+                    }
+                    2 = {
+                        add_trait = leader_idrinthleaders_agecounter_9
+                        remove_trait = leader_idrinthleaders_agecounter_0
+                    }
+                    4 = {
+                        add_trait = leader_idrinthleaders_agecounter_8
+                        remove_trait = leader_idrinthleaders_agecounter_0
+                    }
+                    8 = {
+                        add_trait = leader_idrinthleaders_agecounter_7
+                        remove_trait = leader_idrinthleaders_agecounter_0
+                    }
+                    16 = {
+                        add_trait = leader_idrinthleaders_agecounter_6
+                        remove_trait = leader_idrinthleaders_agecounter_0
+                    }
+                    32 = {
+                        add_trait = leader_idrinthleaders_agecounter_5
+                        remove_trait = leader_idrinthleaders_agecounter_0
+                    }
+                    62 = {
+                        add_trait = leader_idrinthleaders_agecounter_4
+                        remove_trait = leader_idrinthleaders_agecounter_0
+                    }
+                    128 = {
+                        add_trait = leader_idrinthleaders_agecounter_3
+                        remove_trait = leader_idrinthleaders_agecounter_0
+                    }
+                    256 = {
+                        add_trait = leader_idrinthleaders_agecounter_2
+                        remove_trait = leader_idrinthleaders_agecounter_0
+                    }
+                    512 = {
+                        add_trait = leader_idrinthleaders_agecounter_1
+                        remove_trait = leader_idrinthleaders_agecounter_0
+                    }
+                    1024 = {}
+                }
+            }
+        }
+    }
+}
