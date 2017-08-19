@@ -1,0 +1,108 @@
+leader_idrinthleaders_agecounter_month0 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
+}
+leader_idrinthleaders_agecounter_month1 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
+}
+leader_idrinthleaders_agecounter_month2 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
+}
+leader_idrinthleaders_agecounter_month3 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
+}
+leader_idrinthleaders_agecounter_month4 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
+}
+leader_idrinthleaders_agecounter_month5 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
+}
+leader_idrinthleaders_agecounter_month6 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
+}
+leader_idrinthleaders_agecounter_month7 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
+}
+leader_idrinthleaders_agecounter_month8 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
+}
+leader_idrinthleaders_agecounter_month9 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
+}
+leader_idrinthleaders_agecounter_month10 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
+}
+leader_idrinthleaders_agecounter_month11 = {
+	cost = 0
+	modification = no
+	leader_trait = yes
+	leader_class = { admiral general governor scientist ruler }
+	initial = no
+	randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
+}

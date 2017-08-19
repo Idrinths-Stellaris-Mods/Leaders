@@ -1,43 +1,14 @@
 namespace = idrinthleaders
 
 country_event = {
-    id = idrinthleaders.2
+    id = idrinthleaders.20
     hide_window = yes
     is_triggered_only = yes
     
     immediate = {
-        country_event = {
-            id = idrinthleaders.2010
-            days = 3600 # 10 years
-        }
-        country_event = {
-            id = idrinthleaders.2020
-            days = 9000 # 25 years
-        }
-        country_event = {
-            id = idrinthleaders.2030
-            days = 18000 # 50 years
-        }
-        country_event = {
-            id = idrinthleaders.2040
-            days = 36000 # 100 years
-        }
-        country_event = {
-            id = idrinthleaders.2050
-            days = 90000 # 250 years
-        }
-    }
-}
-
-country_event = {
-    id = idrinthleaders.2010
-    hide_window = yes
-    immediate = {
         from = {
-            if = {
-                limit = { is_valid = yes }
-                country_event = { id = idrinthleaders.201 }
-            }
+            add_trait = leader_idrinthleaders_agecounter_0
+            add_trait = leader_idrinthleaders_agecounter_month0
         }
     }
 }
@@ -49,41 +20,6 @@ country_event = {
     is_triggered_only = yes
     option = {
 	name = OK
-        fromfrom = {
-            if = {
-                limit = { leader_class = admiral }
-                add_trait = leader_idrinthleaders_experienced_admiral_0
-            }
-            if = {
-                limit = { leader_class = general }
-                add_trait = leader_idrinthleaders_experienced_general_0
-            }
-            if = {
-                limit = { leader_class = governor }
-                add_trait = leader_idrinthleaders_experienced_governor_0
-            }
-            if = {
-                limit = { leader_class = scientist }
-                add_trait = leader_idrinthleaders_experienced_scientist_0
-            }
-            if = {
-                limit = { leader_class = ruler }
-                add_trait = leader_idrinthleaders_experienced_ruler_0
-            }
-        }
-    }
-}
-
-country_event = {
-    id = idrinthleaders.2020
-    hide_window = yes
-    immediate = {
-        from = {
-            if = {
-                limit = { is_valid = yes }
-                country_event = { id = idrinthleaders.202 }
-            }
-        }
     }
 }
 
@@ -94,46 +30,6 @@ country_event = {
     is_triggered_only = yes
     option = {
 	name = OK
-        fromfrom = {
-            if = {
-                limit = { leader_class = admiral }
-                add_trait = leader_idrinthleaders_experienced_admiral_0
-                remove_trait = leader_idrinthleaders_experienced_admiral_1
-            }
-            if = {
-                limit = { leader_class = general }
-                add_trait = leader_idrinthleaders_experienced_general_1
-                remove_trait = leader_idrinthleaders_experienced_general_0
-            }
-            if = {
-                limit = { leader_class = governor }
-                add_trait = leader_idrinthleaders_experienced_governor_1
-                remove_trait = leader_idrinthleaders_experienced_governor_0
-            }
-            if = {
-                limit = { leader_class = scientist }
-                add_trait = leader_idrinthleaders_experienced_scientist_1
-                remove_trait = leader_idrinthleaders_experienced_scientist_0
-            }
-            if = {
-                limit = { leader_class = ruler }
-                add_trait = leader_idrinthleaders_experienced_ruler_1
-                remove_trait = leader_idrinthleaders_experienced_ruler_0
-            }
-        }
-    }
-}
-
-country_event = {
-    id = idrinthleaders.2030
-    hide_window = yes
-    immediate = {
-        from = {
-            if = {
-                limit = { is_valid = yes }
-                country_event = { id = idrinthleaders.203 }
-            }
-        }
     }
 }
 
@@ -144,46 +40,6 @@ country_event = {
     is_triggered_only = yes
     option = {
 	name = OK
-        fromfrom = {
-            if = {
-                limit = { leader_class = admiral }
-                add_trait = leader_idrinthleaders_experienced_admiral_2
-                remove_trait = leader_idrinthleaders_experienced_admiral_1
-            }
-            if = {
-                limit = { leader_class = general }
-                add_trait = leader_idrinthleaders_experienced_general_2
-                remove_trait = leader_idrinthleaders_experienced_general_1
-            }
-            if = {
-                limit = { leader_class = governor }
-                add_trait = leader_idrinthleaders_experienced_governor_2
-                remove_trait = leader_idrinthleaders_experienced_governor_1
-            }
-            if = {
-                limit = { leader_class = scientist }
-                add_trait = leader_idrinthleaders_experienced_scientist_2
-                remove_trait = leader_idrinthleaders_experienced_scientist_1
-            }
-            if = {
-                limit = { leader_class = ruler }
-                add_trait = leader_idrinthleaders_experienced_ruler_2
-                remove_trait = leader_idrinthleaders_experienced_ruler_1
-            }
-        }
-    }
-}
-
-country_event = {
-    id = idrinthleaders.2040
-    hide_window = yes
-    immediate = {
-        from = {
-            if = {
-                limit = { is_valid = yes }
-                country_event = { id = idrinthleaders.204 }
-            }
-        }
     }
 }
 
@@ -194,46 +50,6 @@ country_event = {
     is_triggered_only = yes
     option = {
 	name = OK
-        fromfrom = {
-            if = {
-                limit = { leader_class = admiral }
-                add_trait = leader_idrinthleaders_experienced_admiral_3
-                remove_trait = leader_idrinthleaders_experienced_admiral_2
-            }
-            if = {
-                limit = { leader_class = general }
-                add_trait = leader_idrinthleaders_experienced_general_3
-                remove_trait = leader_idrinthleaders_experienced_general_2
-            }
-            if = {
-                limit = { leader_class = governor }
-                add_trait = leader_idrinthleaders_experienced_governor_3
-                remove_trait = leader_idrinthleaders_experienced_governor_2
-            }
-            if = {
-                limit = { leader_class = scientist }
-                add_trait = leader_idrinthleaders_experienced_scientist_3
-                remove_trait = leader_idrinthleaders_experienced_scientist_2
-            }
-            if = {
-                limit = { leader_class = ruler }
-                add_trait = leader_idrinthleaders_experienced_ruler_3
-                remove_trait = leader_idrinthleaders_experienced_ruler_2
-            }
-        }
-    }
-}
-
-country_event = {
-    id = idrinthleaders.2050
-    hide_window = yes
-    immediate = {
-        from = {
-            if = {
-                limit = { is_valid = yes }
-                country_event = { id = idrinthleaders.205 }
-            }
-        }
     }
 }
 
@@ -244,32 +60,5 @@ country_event = {
     is_triggered_only = yes
     option = {
 	name = OK
-        fromfrom = {
-            if = {
-                limit = { leader_class = admiral }
-                add_trait = leader_idrinthleaders_experienced_admiral_4
-                remove_trait = leader_idrinthleaders_experienced_admiral_3
-            }
-            if = {
-                limit = { leader_class = general }
-                add_trait = leader_idrinthleaders_experienced_general_4
-                remove_trait = leader_idrinthleaders_experienced_general_3
-            }
-            if = {
-                limit = { leader_class = governor }
-                add_trait = leader_idrinthleaders_experienced_governor_4
-                remove_trait = leader_idrinthleaders_experienced_governor_3
-            }
-            if = {
-                limit = { leader_class = scientist }
-                add_trait = leader_idrinthleaders_experienced_scientist_4
-                remove_trait = leader_idrinthleaders_experienced_scientist_3
-            }
-            if = {
-                limit = { leader_class = ruler }
-                add_trait = leader_idrinthleaders_experienced_ruler_4
-                remove_trait = leader_idrinthleaders_experienced_ruler_3
-            }
-        }
     }
 }

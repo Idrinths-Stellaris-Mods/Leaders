@@ -6,51 +6,2869 @@ event = {
     is_triggered_only = yes
 
     immediate = {
-        if = {
-          limit = { years_passed < 1 }
-          from = {
-                randomlist = {
-                    1 = {
+        every_country = {
+            every_owned_leader = {
+                if = {
+                    limit = { has_trait = leader_idrinthleaders_agecounter_month11 }
+                    add_trait = leader_idrinthleaders_agecounter_month0
+                    remove_trait = leader_idrinthleaders_agecounter_month11
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_admiral_0 }
+                        remove_trait = leader_idrinthleaders_experienced_admiral_0
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_general_0 }
+                        remove_trait = leader_idrinthleaders_experienced_general_0
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_governor_0 }
+                        remove_trait = leader_idrinthleaders_experienced_governor_0
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_scientist_0 }
+                        remove_trait = leader_idrinthleaders_experienced_scientist_0
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_ruler_0 }
+                        remove_trait = leader_idrinthleaders_experienced_ruler_0
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_admiral_1 }
+                        remove_trait = leader_idrinthleaders_experienced_admiral_1
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_general_1 }
+                        remove_trait = leader_idrinthleaders_experienced_general_1
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_governor_1 }
+                        remove_trait = leader_idrinthleaders_experienced_governor_1
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_scientist_1 }
+                        remove_trait = leader_idrinthleaders_experienced_scientist_1
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_ruler_1 }
+                        remove_trait = leader_idrinthleaders_experienced_ruler_1
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_admiral_2 }
+                        remove_trait = leader_idrinthleaders_experienced_admiral_2
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_general_2 }
+                        remove_trait = leader_idrinthleaders_experienced_general_2
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_governor_2 }
+                        remove_trait = leader_idrinthleaders_experienced_governor_2
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_scientist_2 }
+                        remove_trait = leader_idrinthleaders_experienced_scientist_2
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_ruler_2 }
+                        remove_trait = leader_idrinthleaders_experienced_ruler_2
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_admiral_3 }
+                        remove_trait = leader_idrinthleaders_experienced_admiral_3
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_general_3 }
+                        remove_trait = leader_idrinthleaders_experienced_general_3
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_governor_3 }
+                        remove_trait = leader_idrinthleaders_experienced_governor_3
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_scientist_3 }
+                        remove_trait = leader_idrinthleaders_experienced_scientist_3
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_ruler_3 }
+                        remove_trait = leader_idrinthleaders_experienced_ruler_3
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_admiral_4 }
+                        remove_trait = leader_idrinthleaders_experienced_admiral_4
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_general_4 }
+                        remove_trait = leader_idrinthleaders_experienced_general_4
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_governor_4 }
+                        remove_trait = leader_idrinthleaders_experienced_governor_4
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_scientist_4 }
+                        remove_trait = leader_idrinthleaders_experienced_scientist_4
+                    }
+                    if = {
+                        limit = { has_trait = leader_idrinthleaders_experienced_ruler_4 }
+                        remove_trait = leader_idrinthleaders_experienced_ruler_4
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_99
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_100
+                        remove_trait = leader_idrinthleaders_agecounter_99
+                        prev = {
+                            country_event = {
+                                id = idrinthleaders.205
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_4
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_admiral_4"
+                                    days = 30
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_4
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_general_4"
+                                    days = 30
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_4
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_governor_4"
+                                    days = 30
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_4
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_scientist_4"
+                                    days = 30
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_4
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_ruler_4"
+                                    days = 30
+                                }
+                            }
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_98
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_99
+                        remove_trait = leader_idrinthleaders_agecounter_98
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_97
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_98
+                        remove_trait = leader_idrinthleaders_agecounter_97
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_96
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_97
+                        remove_trait = leader_idrinthleaders_agecounter_96
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_95
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_96
+                        remove_trait = leader_idrinthleaders_agecounter_95
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_94
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_95
+                        remove_trait = leader_idrinthleaders_agecounter_94
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_93
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_94
+                        remove_trait = leader_idrinthleaders_agecounter_93
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_92
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_93
+                        remove_trait = leader_idrinthleaders_agecounter_92
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_91
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_92
+                        remove_trait = leader_idrinthleaders_agecounter_91
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_90
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_91
+                        remove_trait = leader_idrinthleaders_agecounter_90
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_89
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_90
+                        remove_trait = leader_idrinthleaders_agecounter_89
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_88
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_89
+                        remove_trait = leader_idrinthleaders_agecounter_88
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_87
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_88
+                        remove_trait = leader_idrinthleaders_agecounter_87
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_86
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_87
+                        remove_trait = leader_idrinthleaders_agecounter_86
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_85
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_86
+                        remove_trait = leader_idrinthleaders_agecounter_85
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_84
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_85
+                        remove_trait = leader_idrinthleaders_agecounter_84
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_83
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_84
+                        remove_trait = leader_idrinthleaders_agecounter_83
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_82
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_83
+                        remove_trait = leader_idrinthleaders_agecounter_82
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_81
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_82
+                        remove_trait = leader_idrinthleaders_agecounter_81
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_80
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_81
+                        remove_trait = leader_idrinthleaders_agecounter_80
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_79
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_80
+                        remove_trait = leader_idrinthleaders_agecounter_79
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_78
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_79
+                        remove_trait = leader_idrinthleaders_agecounter_78
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_77
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_78
+                        remove_trait = leader_idrinthleaders_agecounter_77
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_76
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_77
+                        remove_trait = leader_idrinthleaders_agecounter_76
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_75
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_76
+                        remove_trait = leader_idrinthleaders_agecounter_75
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_74
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_75
+                        remove_trait = leader_idrinthleaders_agecounter_74
+                        prev = {
+                            country_event = {
+                                id = idrinthleaders.204
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_3
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_admiral_3"
+                                    days = 25
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_3
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_general_3"
+                                    days = 25
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_3
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_governor_3"
+                                    days = 25
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_3
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_scientist_3"
+                                    days = 25
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_3
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_ruler_3"
+                                    days = 25
+                                }
+                            }
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_73
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_74
+                        remove_trait = leader_idrinthleaders_agecounter_73
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_72
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_73
+                        remove_trait = leader_idrinthleaders_agecounter_72
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_71
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_72
+                        remove_trait = leader_idrinthleaders_agecounter_71
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_70
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_71
+                        remove_trait = leader_idrinthleaders_agecounter_70
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_69
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_70
+                        remove_trait = leader_idrinthleaders_agecounter_69
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_68
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_69
+                        remove_trait = leader_idrinthleaders_agecounter_68
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_67
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_68
+                        remove_trait = leader_idrinthleaders_agecounter_67
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_66
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_67
+                        remove_trait = leader_idrinthleaders_agecounter_66
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_65
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_66
+                        remove_trait = leader_idrinthleaders_agecounter_65
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_64
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_65
+                        remove_trait = leader_idrinthleaders_agecounter_64
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_63
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_64
+                        remove_trait = leader_idrinthleaders_agecounter_63
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_62
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_63
+                        remove_trait = leader_idrinthleaders_agecounter_62
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_61
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_62
+                        remove_trait = leader_idrinthleaders_agecounter_61
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_60
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_61
+                        remove_trait = leader_idrinthleaders_agecounter_60
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_59
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_60
+                        remove_trait = leader_idrinthleaders_agecounter_59
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_58
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_59
+                        remove_trait = leader_idrinthleaders_agecounter_58
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_57
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_58
+                        remove_trait = leader_idrinthleaders_agecounter_57
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_56
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_57
+                        remove_trait = leader_idrinthleaders_agecounter_56
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_55
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_56
+                        remove_trait = leader_idrinthleaders_agecounter_55
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_54
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_55
+                        remove_trait = leader_idrinthleaders_agecounter_54
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_53
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_54
+                        remove_trait = leader_idrinthleaders_agecounter_53
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_52
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_53
+                        remove_trait = leader_idrinthleaders_agecounter_52
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_51
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_52
+                        remove_trait = leader_idrinthleaders_agecounter_51
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_50
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_51
+                        remove_trait = leader_idrinthleaders_agecounter_50
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_49
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_50
+                        remove_trait = leader_idrinthleaders_agecounter_49
+                        prev = {
+                            country_event = {
+                                id = idrinthleaders.203
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_2
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_admiral_2"
+                                    days = 20
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_2
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_general_2"
+                                    days = 20
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_2
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_governor_2"
+                                    days = 20
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_2
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_scientist_2"
+                                    days = 20
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_2
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_ruler_2"
+                                    days = 20
+                                }
+                            }
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_48
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_49
+                        remove_trait = leader_idrinthleaders_agecounter_48
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_47
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_48
+                        remove_trait = leader_idrinthleaders_agecounter_47
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_46
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_47
+                        remove_trait = leader_idrinthleaders_agecounter_46
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_45
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_46
+                        remove_trait = leader_idrinthleaders_agecounter_45
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_44
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_45
+                        remove_trait = leader_idrinthleaders_agecounter_44
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_43
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_44
+                        remove_trait = leader_idrinthleaders_agecounter_43
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_42
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_43
+                        remove_trait = leader_idrinthleaders_agecounter_42
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_41
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_42
+                        remove_trait = leader_idrinthleaders_agecounter_41
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_40
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_41
+                        remove_trait = leader_idrinthleaders_agecounter_40
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_39
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_40
+                        remove_trait = leader_idrinthleaders_agecounter_39
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_38
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_39
+                        remove_trait = leader_idrinthleaders_agecounter_38
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_37
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_38
+                        remove_trait = leader_idrinthleaders_agecounter_37
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_36
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_37
+                        remove_trait = leader_idrinthleaders_agecounter_36
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_35
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_36
+                        remove_trait = leader_idrinthleaders_agecounter_35
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_34
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_35
+                        remove_trait = leader_idrinthleaders_agecounter_34
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_33
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_34
+                        remove_trait = leader_idrinthleaders_agecounter_33
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_32
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_33
+                        remove_trait = leader_idrinthleaders_agecounter_32
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_31
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_32
+                        remove_trait = leader_idrinthleaders_agecounter_31
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_30
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_31
+                        remove_trait = leader_idrinthleaders_agecounter_30
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_29
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_30
+                        remove_trait = leader_idrinthleaders_agecounter_29
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_28
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_29
+                        remove_trait = leader_idrinthleaders_agecounter_28
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_27
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_28
+                        remove_trait = leader_idrinthleaders_agecounter_27
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_26
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_27
+                        remove_trait = leader_idrinthleaders_agecounter_26
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_25
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_26
+                        remove_trait = leader_idrinthleaders_agecounter_25
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_24
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_25
+                        remove_trait = leader_idrinthleaders_agecounter_24
+                        prev = {
+                            country_event = {
+                                id = idrinthleaders.202
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_1
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_admiral_1"
+                                    days = 15
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_1
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_general_1"
+                                    days = 15
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_1
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_governor_1"
+                                    days = 15
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_1
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_scientist_1"
+                                    days = 15
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_1
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_ruler_1"
+                                    days = 15
+                                }
+                            }
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_23
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_24
+                        remove_trait = leader_idrinthleaders_agecounter_23
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_0
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_0
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_0
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_0
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_0
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_22
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_23
+                        remove_trait = leader_idrinthleaders_agecounter_22
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_0
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_0
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_0
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_0
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_0
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_21
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_22
+                        remove_trait = leader_idrinthleaders_agecounter_21
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_0
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_0
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_0
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_0
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_0
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_20
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_21
+                        remove_trait = leader_idrinthleaders_agecounter_20
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_0
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_0
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_0
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_0
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_0
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_19
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_20
+                        remove_trait = leader_idrinthleaders_agecounter_19
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_0
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_0
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_0
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_0
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_0
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_18
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_19
+                        remove_trait = leader_idrinthleaders_agecounter_18
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_0
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_0
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_0
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_0
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_0
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_17
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_18
+                        remove_trait = leader_idrinthleaders_agecounter_17
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_0
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_0
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_0
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_0
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_0
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_16
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_17
+                        remove_trait = leader_idrinthleaders_agecounter_16
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_0
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_0
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_0
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_0
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_0
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_15
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_16
+                        remove_trait = leader_idrinthleaders_agecounter_15
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_0
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_0
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_0
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_0
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_0
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_14
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_15
+                        remove_trait = leader_idrinthleaders_agecounter_14
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_0
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_0
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_0
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_0
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_0
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_13
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_14
+                        remove_trait = leader_idrinthleaders_agecounter_13
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_0
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_0
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_0
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_0
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_0
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_12
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_13
+                        remove_trait = leader_idrinthleaders_agecounter_12
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_0
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_0
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_0
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_0
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_0
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_11
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_12
+                        remove_trait = leader_idrinthleaders_agecounter_11
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_0
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_0
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_0
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_0
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_0
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_10
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_11
+                        remove_trait = leader_idrinthleaders_agecounter_10
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_0
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_0
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_0
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_0
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_0
+                        }
+                    }
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_9
+                        }
                         add_trait = leader_idrinthleaders_agecounter_10
-                        remove_trait = leader_idrinthleaders_agecounter_0
+                        remove_trait = leader_idrinthleaders_agecounter_9
+                        prev = {
+                            country_event = {
+                                id = idrinthleaders.201
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = admiral }
+                            add_trait = leader_idrinthleaders_experienced_admiral_0
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_admiral_0"
+                                    days = 10
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = general }
+                            add_trait = leader_idrinthleaders_experienced_general_0
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_general_0"
+                                    days = 10
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = governor }
+                            add_trait = leader_idrinthleaders_experienced_governor_0
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_governor_0"
+                                    days = 10
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = scientist }
+                            add_trait = leader_idrinthleaders_experienced_scientist_0
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_scientist_0"
+                                    days = 10
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { leader_class = ruler }
+                            add_trait = leader_idrinthleaders_experienced_ruler_0
+                            prev = {
+                                add_modifier = {
+                                    modifier = "effect_idrinthleaders_ruler_0"
+                                    days = 10
+                                }
+                            }
+                        }
                     }
-                    2 = {
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_8
+                        }
                         add_trait = leader_idrinthleaders_agecounter_9
-                        remove_trait = leader_idrinthleaders_agecounter_0
+                        remove_trait = leader_idrinthleaders_agecounter_8
                     }
-                    4 = {
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_7
+                        }
                         add_trait = leader_idrinthleaders_agecounter_8
-                        remove_trait = leader_idrinthleaders_agecounter_0
+                        remove_trait = leader_idrinthleaders_agecounter_7
                     }
-                    8 = {
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_6
+                        }
                         add_trait = leader_idrinthleaders_agecounter_7
-                        remove_trait = leader_idrinthleaders_agecounter_0
+                        remove_trait = leader_idrinthleaders_agecounter_6
                     }
-                    16 = {
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_5
+                        }
                         add_trait = leader_idrinthleaders_agecounter_6
-                        remove_trait = leader_idrinthleaders_agecounter_0
+                        remove_trait = leader_idrinthleaders_agecounter_5
                     }
-                    32 = {
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_4
+                        }
                         add_trait = leader_idrinthleaders_agecounter_5
-                        remove_trait = leader_idrinthleaders_agecounter_0
+                        remove_trait = leader_idrinthleaders_agecounter_4
                     }
-                    62 = {
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_3
+                        }
                         add_trait = leader_idrinthleaders_agecounter_4
-                        remove_trait = leader_idrinthleaders_agecounter_0
+                        remove_trait = leader_idrinthleaders_agecounter_3
                     }
-                    128 = {
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_2
+                        }
                         add_trait = leader_idrinthleaders_agecounter_3
-                        remove_trait = leader_idrinthleaders_agecounter_0
+                        remove_trait = leader_idrinthleaders_agecounter_2
                     }
-                    256 = {
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_1
+                        }
                         add_trait = leader_idrinthleaders_agecounter_2
-                        remove_trait = leader_idrinthleaders_agecounter_0
+                        remove_trait = leader_idrinthleaders_agecounter_1
                     }
-                    512 = {
+                    if = {
+                        limit = {
+                            has_trait = leader_idrinthleaders_agecounter_0
+                        }
                         add_trait = leader_idrinthleaders_agecounter_1
                         remove_trait = leader_idrinthleaders_agecounter_0
                     }
-                    1024 = {}
+                    if = {
+                        limit = {
+                            has_leader_flag = leader_idrinthleaders_new
+                        }
+                        add_trait = leader_idrinthleaders_agecounter_0
+                        remove_leader_flag = leader_idrinthleaders_new
+                    }
+                }
+                if = {
+                    limit = { has_trait = leader_idrinthleaders_agecounter_month10 }
+                    add_trait = leader_idrinthleaders_agecounter_month11
+                    remove_trait = leader_idrinthleaders_agecounter_month10
+                }
+                if = {
+                    limit = { has_trait = leader_idrinthleaders_agecounter_month9 }
+                    add_trait = leader_idrinthleaders_agecounter_month10
+                    remove_trait = leader_idrinthleaders_agecounter_month9
+                }
+                if = {
+                    limit = { has_trait = leader_idrinthleaders_agecounter_month8 }
+                    add_trait = leader_idrinthleaders_agecounter_month9
+                    remove_trait = leader_idrinthleaders_agecounter_month8
+                }
+                if = {
+                    limit = { has_trait = leader_idrinthleaders_agecounter_month7 }
+                    add_trait = leader_idrinthleaders_agecounter_month8
+                    remove_trait = leader_idrinthleaders_agecounter_month7
+                }
+                if = {
+                    limit = { has_trait = leader_idrinthleaders_agecounter_month6 }
+                    add_trait = leader_idrinthleaders_agecounter_month7
+                    remove_trait = leader_idrinthleaders_agecounter_month6
+                }
+                if = {
+                    limit = { has_trait = leader_idrinthleaders_agecounter_month5 }
+                    add_trait = leader_idrinthleaders_agecounter_month6
+                    remove_trait = leader_idrinthleaders_agecounter_month5
+                }
+                if = {
+                    limit = { has_trait = leader_idrinthleaders_agecounter_month4 }
+                    add_trait = leader_idrinthleaders_agecounter_month5
+                    remove_trait = leader_idrinthleaders_agecounter_month4
+                }
+                if = {
+                    limit = { has_trait = leader_idrinthleaders_agecounter_month3 }
+                    add_trait = leader_idrinthleaders_agecounter_month4
+                    remove_trait = leader_idrinthleaders_agecounter_month3
+                }
+                if = {
+                    limit = { has_trait = leader_idrinthleaders_agecounter_month2 }
+                    add_trait = leader_idrinthleaders_agecounter_month3
+                    remove_trait = leader_idrinthleaders_agecounter_month2
+                }
+                if = {
+                    limit = { has_trait = leader_idrinthleaders_agecounter_month1 }
+                    add_trait = leader_idrinthleaders_agecounter_month2
+                    remove_trait = leader_idrinthleaders_agecounter_month1
+                }
+                if = {
+                    limit = { has_trait = leader_idrinthleaders_agecounter_month0 }
+                    add_trait = leader_idrinthleaders_agecounter_month1
+                    remove_trait = leader_idrinthleaders_agecounter_month0
                 }
             }
         }

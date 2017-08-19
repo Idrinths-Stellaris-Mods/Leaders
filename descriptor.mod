@@ -4,6 +4,8 @@ tags={
 	"Leaders"
 	"Gameplay"
 	"Events"
+        "Deutsch"
+        "English"
 }
 picture="idrinth.jpg"
 supported_version="1.6.*"

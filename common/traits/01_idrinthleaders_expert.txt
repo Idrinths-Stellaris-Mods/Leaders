@@ -4,10 +4,11 @@
 skill_idrinthleaders_admiral_expert = {
     cost = 0
     modification = no
-    leader_class = { admiral }
+    leader_class = { admiral general governor scientist ruler }
     leader_trait = yes
     initial = no
     randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
     self_modifier = {
         leader_age = 15
     }
@@ -20,10 +21,11 @@ skill_idrinthleaders_admiral_expert = {
 skill_idrinthleaders_general_expert = {
     cost = 0
     modification = no
-    leader_class = { general }
+    leader_class = { admiral general governor scientist ruler }
     leader_trait = yes
     initial = no
     randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
     self_modifier = {
         leader_age = 15
     }
@@ -37,10 +39,11 @@ skill_idrinthleaders_general_expert = {
 skill_idrinthleaders_scientist_expert = {
     cost = 0
     modification = no
-    leader_class = { scientist }
+    leader_class = { admiral general governor scientist ruler }
     leader_trait = yes
     initial = no
     randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
     self_modifier = {
         all_technology_research_speed = 0.1
         leader_age = 15
@@ -49,10 +52,11 @@ skill_idrinthleaders_scientist_expert = {
 skill_idrinthleaders_governor_expert = {
     cost = 0
     modification = no
-    leader_class = { governor }
+    leader_class = { admiral general governor scientist ruler }
     leader_trait = yes
     initial = no
     randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
     self_modifier = {
         leader_age = 15
     }
@@ -68,18 +72,19 @@ skill_idrinthleaders_governor_expert = {
         edict_influence_cost=-0.1
     }
 }
-skill_idrinthleaders_leader_expert = {
+skill_idrinthleaders_ruler_expert = {
     cost = 0
     modification = no
-    leader_class = { leader }
+    leader_class = { admiral general governor scientist ruler }
     leader_trait = yes
     initial = no
     randomized = no
+    icon = "gfx/interface/icons/traits/leader_traits/leader_trait_charismatic.dds"
     self_modifier = {
         leader_age = 15
     }
     modifier = {
-        country_influence_gain_add = 1
+        influence_gain_add = 1
         country_leader_cap = 2
         country_trust_cap_add = 10
         country_core_sector_system_cap=2

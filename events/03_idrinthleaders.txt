@@ -1,29 +1,409 @@
 namespace = idrinthleaders
 
-event = {
+country_event = {
     id = idrinthleaders.3
+    title = "idrinthleaders.3.name"
+    desc = "idrinthleaders.3.desc"
     is_triggered_only = yes
-
-    option = {
-        idrinthleaders_CELEBRATE
+	
+    trigger = {
         from = {
+            NOT = {
+                has_trait = leader_idrinthleaders_agecounter_0
+            }
+        }
+    }
+    option = {
+        name = idrinthleaders.3.big
+        hidden_effect = {
+            add_food = -150
+            add_modifier = {
+                modifier = "mod_idrinthleaders_death_default_positive"
+                days = 30
+            }
             if = {
                 limit = {
-                    has_trait = 5
+                    from = {
+                        has_trait = leader_trait_paranoid
+                    }
                 }
-                
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_paranoid"
+                    days = 30
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_lethargic
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_lethargic"
+                    days = 30
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_dragonslayer
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_dragonslayer"
+                    days = 30
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        OR = {
+                            has_trait = leader_trait_admiral_chosen
+                            has_trait = leader_trait_governor_chosen
+                            has_trait = leader_trait_general_chosen
+                            has_trait = leader_trait_ruler_chosen
+                            has_trait = leader_trait_scientist_chosen
+                        }
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_chosen"
+                    days = 30
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_stubborn
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_stubborn"
+                    days = 30
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_substance_abuser
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_substance_abuser"
+                    days = 30
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_arrested_development
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_arrested_development"
+                    days = 30
+                }
+            }
+        }
+        trigger = {
+            has_resource = {
+                type = food
+                amount > 149
             }
         }
     }
 
     option = {
-        idrinthleaders_IGNORE
-        from = {
+        name = idrinthleaders.3.medium
+        hidden_effect = {
+            add_modifier = {
+                modifier = "mod_idrinthleaders_death_default_positive"
+                days = 10
+            }
+            add_food = -50
             if = {
                 limit = {
-                    has_trait = 5
+                    from = {
+                        has_trait = leader_trait_paranoid
+                    }
                 }
-                
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_paranoid"
+                    days = 10
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_lethargic
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_lethargic"
+                    days = 10
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_dragonslayer
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_dragonslayer"
+                    days = 10
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        OR = {
+                            has_trait = leader_trait_admiral_chosen
+                            has_trait = leader_trait_governor_chosen
+                            has_trait = leader_trait_general_chosen
+                            has_trait = leader_trait_ruler_chosen
+                            has_trait = leader_trait_scientist_chosen
+                        }
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_chosen"
+                    days = 10
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_stubborn
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_stubborn"
+                    days = 10
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_substance_abuser
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_substance_abuser"
+                    days = 10
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_arrested_development
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_arrested_development"
+                    days = 10
+                }
+            }
+        }
+        trigger = {
+            has_resource = {
+                type = food
+                amount > 49
+            }
+        }
+    }
+
+    option = {
+        name = idrinthleaders.3.small
+        hidden_effect = {
+            add_modifier = {
+                modifier = "mod_idrinthleaders_death_default_positive"
+                days = 5
+            }
+            add_food = -15
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_paranoid
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_paranoid"
+                    days = 5
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_lethargic
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_lethargic"
+                    days = 5
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_dragonslayer
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_dragonslayer"
+                    days = 5
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        OR = {
+                            has_trait = leader_trait_admiral_chosen
+                            has_trait = leader_trait_governor_chosen
+                            has_trait = leader_trait_general_chosen
+                            has_trait = leader_trait_ruler_chosen
+                            has_trait = leader_trait_scientist_chosen
+                        }
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_chosen"
+                    days = 5
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_stubborn
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_stubborn"
+                    days = 5
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_substance_abuser
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_substance_abuser"
+                    days = 5
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        has_trait = leader_trait_arrested_development
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_arrested_development"
+                    days = 5
+                }
+            }
+        }
+        trigger = {
+            has_resource = {
+                type = food
+                amount > 14
+            }
+        }
+    }
+
+    option = {
+        name = idrinthleaders.3.none
+        hidden_effect = {
+            add_modifier = {
+                modifier = "mod_idrinthleaders_death_default_negative"
+                days = 30
+            }
+            if = {
+                limit = {
+                    from = {
+                        OR = {
+                            has_trait = leader_idrinthleaders_experienced_admiral_4
+                            has_trait = leader_idrinthleaders_experienced_scientist_4
+                            has_trait = leader_idrinthleaders_experienced_general_4
+                            has_trait = leader_idrinthleaders_experienced_ruler_4
+                            has_trait = leader_idrinthleaders_experienced_governor_4
+                        }
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_age4_negative"
+                    days = 30
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        OR = {
+                            has_trait = leader_idrinthleaders_experienced_admiral_3
+                            has_trait = leader_idrinthleaders_experienced_scientist_3
+                            has_trait = leader_idrinthleaders_experienced_general_3
+                            has_trait = leader_idrinthleaders_experienced_ruler_3
+                            has_trait = leader_idrinthleaders_experienced_governor_3
+                        }
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_age3_negative"
+                    days = 30
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        OR = {
+                            has_trait = leader_idrinthleaders_experienced_admiral_2
+                            has_trait = leader_idrinthleaders_experienced_scientist_2
+                            has_trait = leader_idrinthleaders_experienced_general_2
+                            has_trait = leader_idrinthleaders_experienced_ruler_2
+                            has_trait = leader_idrinthleaders_experienced_governor_2
+                        }
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_age2_negative"
+                    days = 30
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        OR = {
+                            has_trait = leader_idrinthleaders_experienced_admiral_1
+                            has_trait = leader_idrinthleaders_experienced_scientist_1
+                            has_trait = leader_idrinthleaders_experienced_general_1
+                            has_trait = leader_idrinthleaders_experienced_ruler_1
+                            has_trait = leader_idrinthleaders_experienced_governor_1
+                        }
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_age1_negative"
+                    days = 30
+                }
+            }
+            if = {
+                limit = {
+                    from = {
+                        OR = {
+                            has_trait = leader_idrinthleaders_experienced_admiral_0
+                            has_trait = leader_idrinthleaders_experienced_scientist_0
+                            has_trait = leader_idrinthleaders_experienced_general_0
+                            has_trait = leader_idrinthleaders_experienced_ruler_0
+                            has_trait = leader_idrinthleaders_experienced_governor_0
+                        }
+                    }
+                }
+                add_modifier = {
+                    modifier = "mod_idrinthleaders_death_age0_negative"
+                    days = 30
+                }
             }
         }
     }
