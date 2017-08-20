@@ -46,6 +46,53 @@ event = {
                         remove_trait = leader_idrinthleaders_agecounter_0
                     }
                     10 = {}
+                }
+                random_list = {
+                    1 = {
+                        add_trait = leader_idrinthleaders_agecounter_month11
+                        remove_trait = leader_idrinthleaders_agecounter_month0
+                    }
+                    1 = {
+                        add_trait = leader_idrinthleaders_agecounter_month10
+                        remove_trait = leader_idrinthleaders_agecounter_month0
+                    }
+                    1 = {
+                        add_trait = leader_idrinthleaders_agecounter_month9
+                        remove_trait = leader_idrinthleaders_agecounter_month0
+                    }
+                    1 = {
+                        add_trait = leader_idrinthleaders_agecounter_month8
+                        remove_trait = leader_idrinthleaders_agecounter_month0
+                    }
+                    1 = {
+                        add_trait = leader_idrinthleaders_agecounter_month7
+                        remove_trait = leader_idrinthleaders_agecounter_month0
+                    }
+                    1 = {
+                        add_trait = leader_idrinthleaders_agecounter_month6
+                        remove_trait = leader_idrinthleaders_agecounter_month0
+                    }
+                    1 = {
+                        add_trait = leader_idrinthleaders_agecounter_month5
+                        remove_trait = leader_idrinthleaders_agecounter_month0
+                    }
+                    1 = {
+                        add_trait = leader_idrinthleaders_agecounter_month4
+                        remove_trait = leader_idrinthleaders_agecounter_month0
+                    }
+                    1 = {
+                        add_trait = leader_idrinthleaders_agecounter_month3
+                        remove_trait = leader_idrinthleaders_agecounter_month0
+                    }
+                    1 = {
+                        add_trait = leader_idrinthleaders_agecounter_month2
+                        remove_trait = leader_idrinthleaders_agecounter_month0
+                    }
+                    1 = {
+                        add_trait = leader_idrinthleaders_agecounter_month1
+                        remove_trait = leader_idrinthleaders_agecounter_month0
+                    }
+                    1 = { }
                 }     
             }
         }
