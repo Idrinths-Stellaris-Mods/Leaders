@@ -338,3 +338,7 @@
  leader_idrinthleaders_agecounter_month10_desc:0 "10 Monate würden in diesem Jahr bereits gedient."
  leader_idrinthleaders_agecounter_month11:0 "11 Monate gedient"
  leader_idrinthleaders_agecounter_month11_desc:0 "11 Monate wurden in diesem Jahr bereits gedient."
+ idrinthleaders.3.none:0 "Keine Feier"
+ idrinthleaders.3.small:0 "Eine kleine Feier"
+ idrinthleaders.3.medium:0 "Eine Feier"
+ idrinthleaders.3.big:0 "Eine große Feier"

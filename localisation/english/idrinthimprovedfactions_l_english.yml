@@ -338,3 +338,7 @@
  leader_idrinthleaders_agecounter_month10_desc:0 "10 months have been served this year of service so far."
  leader_idrinthleaders_agecounter_month11:0 "11 months served this year"
  leader_idrinthleaders_agecounter_month11_desc:0 "11 months have been served this year of service so far."
+ idrinthleaders.3.none:0 "Don't celebrate"
+ idrinthleaders.3.small:0 "A small celebration only"
+ idrinthleaders.3.medium:0 "Celebrate"
+ idrinthleaders.3.big:0 "A big celebration"

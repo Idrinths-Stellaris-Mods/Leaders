@@ -106,7 +106,7 @@ country_event = {
             }
         }
         trigger = {
-            has_resource = {
+            has_country_resource = {
                 type = food
                 amount > 149
             }
@@ -206,7 +206,7 @@ country_event = {
             }
         }
         trigger = {
-            has_resource = {
+            has_country_resource = {
                 type = food
                 amount > 49
             }
@@ -306,7 +306,7 @@ country_event = {
             }
         }
         trigger = {
-            has_resource = {
+            has_country_resource = {
                 type = food
                 amount > 14
             }
